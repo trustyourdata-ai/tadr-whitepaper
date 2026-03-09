@@ -1,8 +1,6 @@
-# TrustYourData
+# TrustYourData Technical Whitepaper
 
 ## Task-Aware Dataset Readiness (TADR)
-
-### Technical Whitepaper
 
 Version 1.1  
 First published: March 2026
@@ -11,7 +9,7 @@ TrustYourData Research
 
 ---
 
-## Abstract
+## 1. Abstract
 
 Many artificial intelligence and machine learning projects fail not because of the model
 architecture but because of the underlying dataset quality and structure.
@@ -32,7 +30,7 @@ intentionally omitted from this public disclosure.
 
 ---
 
-## Problem Statement
+## 2. Problem Statement
 
 Data scientists frequently encounter datasets that appear usable but contain
 hidden structural issues that degrade model performance or invalidate results.
@@ -54,7 +52,7 @@ on datasets.
 
 ---
 
-## Practical Relevance
+## 3. Practical Relevance
 
 Reliable dataset evaluation is a foundational requirement for modern AI and ML
 workflows. In many organizations, model development begins before the dataset
@@ -75,7 +73,7 @@ be reviewed before training begins.
 
 ---
 
-## Design Goals
+## 4. Design Goals
 
 The system was designed around several core principles.
 
@@ -112,7 +110,7 @@ sampling, streaming, and memory-efficient operations.
 
 ---
 
-## System Overview
+## 5. System Overview
 
 TADR operates as a pipeline consisting of several stages.
 
@@ -128,7 +126,7 @@ is suitable for model development.
 
 ---
 
-## Architecture
+## 6. Architecture
 
 High-level architecture:
 
@@ -156,7 +154,7 @@ classes of structural risks.
 
 ---
 
-## Diagnostic Categories
+## 7. Diagnostic Categories
 
 The system analyzes multiple categories of dataset characteristics.
 
@@ -186,7 +184,7 @@ model training outcomes.
 
 ---
 
-## AI Readiness Score™
+## 8. AI Readiness Score™
 
 The system produces an **AI Readiness Score™** representing the estimated
 structural suitability of a dataset for machine learning.
@@ -205,7 +203,7 @@ and are not publicly disclosed.
 
 ---
 
-## Findings and Remediation
+## 9. Findings and Remediation
 
 TADR produces structured findings describing detected issues.
 
@@ -227,7 +225,7 @@ Examples of remediation actions:
 
 ---
 
-## Representative Outputs
+## 10. Representative Outputs
 
 TADR is designed to produce structured artifacts that can be reviewed by data
 scientists, ML engineers, and technical stakeholders before model training.
@@ -245,7 +243,7 @@ The precise format of outputs may vary by deployment mode.
 
 ---
 
-## Representative Use Cases
+## 11. Representative Use Cases
 
 TADR is intended to support a range of practical workflows involving tabular
 datasets.
@@ -263,7 +261,7 @@ These examples are illustrative and not exhaustive.
 
 ---
 
-## Deployment Models
+## 12. Deployment Models
 
 TrustYourData supports multiple usage models.
 
@@ -306,7 +304,7 @@ SDK mode enables:
 
 ---
 
-## Privacy-Aware Processing
+## 13. Privacy-Aware Processing
 
 Some deployment modes allow dataset processing to occur locally while only
 metadata or derived statistics are transmitted to a remote service.
@@ -316,7 +314,7 @@ sensitive raw data.
 
 ---
 
-## Differentiation
+## 14. Differentiation
 
 TADR is intended to complement, rather than duplicate, conventional data
 quality and schema validation tooling.
@@ -334,7 +332,7 @@ reproducible dataset diagnostics.
 
 ---
 
-## Development Status
+## 15. Development Status
 
 At the time of publication, TADR is presented as a defined technical
 framework with a documented architecture, scoring concept, and deployment
@@ -354,7 +352,7 @@ components remain intentionally undisclosed.
 
 ---
 
-## Intended Use
+## 16. Intended Use
 
 TADR is designed as a **dataset screening and prioritization tool**.
 
@@ -370,7 +368,7 @@ of model performance.
 
 ---
 
-## Scope and Limitations
+## 17. Scope and Limitations
 
 This whitepaper describes the public-facing design of TADR and is intentionally
 limited in scope.
@@ -388,7 +386,7 @@ technical disclosure and proprietary product internals.
 
 ---
 
-## Broader Impact
+## 18. Broader Impact
 
 Improving dataset readiness before model training can contribute to more
 reliable and reproducible AI development workflows.
@@ -405,7 +403,7 @@ practical value across a range of AI and ML use cases.
 
 ---
 
-## Open vs Proprietary Components
+## 19. Open vs Proprietary Components
 
 TrustYourData includes both publicly available components and proprietary
 technology.
@@ -431,7 +429,7 @@ These elements constitute the **TrustYourData core scoring engine**.
 
 ---
 
-## Future Work
+## 20. Future Work
 
 Planned areas of development include:
 
@@ -442,7 +440,7 @@ Planned areas of development include:
 
 ---
 
-## Conclusion
+## 21. Conclusion
 
 TrustYourData introduces a deterministic framework for evaluating the
 structural readiness of datasets for machine learning tasks.
@@ -454,6 +452,7 @@ build more reliable and trustworthy AI systems.
 
 ## License
 
-This document is published for research and informational purposes.
+This document is published for informational and research purposes.
 
-Implementation details of the TrustYourData scoring engine remain proprietary.
+Certain implementation details of the TrustYourData scoring engine remain
+proprietary and are not disclosed in this document.
