@@ -5,7 +5,8 @@
 Version 1.1  
 First published: March 2026
 
-TrustYourData Research
+© 2026 TrustYourData  
+[trustyourdata.ai](https://trustyourdata.ai)
 
 ---
 
